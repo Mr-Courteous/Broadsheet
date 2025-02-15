@@ -1,7 +1,6 @@
 const express = require('express');
-const Student = require('../Models/adminSchema');
 const Teacher = require('../Models/TeacherSchema');
-const SchemaStudent = require("../Models/studentSchema");
+const Student = require("../Models/studentSchema")
 const { specialAuthMiddleware, authMiddleware, specialAuthMiddlewareForAdmins } = require('../protection');
 const Admin = require('../Models/adminSchema');
 
@@ -29,7 +28,7 @@ router.put('/:studentId', specialAuthMiddleware, async (req, res) => {
     const studentId = req.params.studentId;
 
     const updatedStudent = await SchemaStudent.findByIdAndUpdate(studentId, {
-      name: name,
+      name: name, 
       age: age,
       class: clas,
       phoneNumber: phoneNumber,

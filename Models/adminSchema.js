@@ -11,6 +11,11 @@ const studentSchema = new mongoose.Schema({
   address: { type: String, required: true },
   password: { type: String, required: true },
   position: { type: String, required: true },
+  verificationCode: { type: String, expires: 3600 }, // Expires after 1 hour
+  isVerified: { type: Boolean, default: false },
+  createdAt: { type: Date, default: Date.now },
+  resetPasswordToken: String, 
+  resetPasswordExpires: Date 
 
 
 

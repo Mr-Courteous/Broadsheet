@@ -1,8 +1,9 @@
 const express = require('express');
 const Student = require('../Models/adminSchema');
 const Teacher = require('../Models/TeacherSchema');
-const SchemaStudent = require("../Models/studentSchema")
 const Admin = require ('../Models/adminSchema')
+const { specialAuthMiddleware, specialAuthMiddlewareForAdmins, authMiddleware } = require('../protection')
+
 
 const router = express.Router();
 
