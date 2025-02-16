@@ -35,6 +35,12 @@ app.use (dashboard);
 
 
 
+app.get('/', (req, res) => {
+  res.send('Hello from Express!');
+});
+
+
+
 
 
 
