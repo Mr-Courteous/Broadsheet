@@ -1,7 +1,7 @@
 {
-  "name": "banking-app",
+  "name": "back-and-frontend",
   "version": "1.0.0",
-  "description": "A banking website",
+  "description": "Just some front and backend practice stuff",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
