@@ -11,7 +11,7 @@ app.use(cors());
 
 
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     res.json({"users":["userOne", "userTwo", "userTwo"]});
 
 });
