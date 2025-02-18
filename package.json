@@ -1,12 +1,10 @@
 {
-  "name": "back-and-frontend",
+  "name": "banking-app",
   "version": "1.0.0",
-  "description": "Just some front and backend practice stuff",
+  "description": "A banking website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mr Courteous",
   "license": "ISC",
