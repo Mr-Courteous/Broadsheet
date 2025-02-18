@@ -1,16 +1,5 @@
 {
     "version":2,
-<<<<<<< HEAD
     "builds":[{"src":"./index.js", "use" :"@vercel/node"}],
     "routes": [{"src": "/(.*)", "dest":"/"}]
 }
-=======
-
-
-    "builds":[{"src":"./testing.js", "use" :"@vercel/node"}],
-
-
-    
-    "routes": [{"src": "/(.*)", "dest":"./testing.js"}]
-}
->>>>>>> e8a5430cad3d320546b19e91ba77fff93f4239f3
